@@ -46,7 +46,6 @@ const Footer = () => {
                     <a href="" className='no-underline text-base mr-6'>About Us</a>
                     <a href="" className='no-underline text-base mr-6'>Treatments</a>
                     <a href="" className='no-underline text-base mr-6'>Prices</a>
-                    <a href="" className='no-underline text-base '>Contact Us</a>
                 </div>
                 {/* third portion */}
                 <div className='flex flex-col items-center lg:flex-row lg:items-start lg:gap-1 gap-3 '>
@@ -62,7 +61,7 @@ const Footer = () => {
 
             {/* Bottom Footer */}
             <div className='bg-[#4B54AD] h-10 flex items-center justify-center border-t border-t-gray-400'>
-                <p className='text-white text-sm'>Copyright © 2025 Asthetic Studio | Powered by Astra WordPress Theme</p>
+                <p className='text-white text-sm'>Copyright © 2025 Asthetic Studio</p>
             </div>
         </div>
     )
