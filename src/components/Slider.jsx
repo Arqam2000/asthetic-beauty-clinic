@@ -79,7 +79,7 @@ const Slider = () => {
                 images.map((image, index) => (
                         <div className="each-slide-effect">
                             <div style={{ 'backgroundImage': `url(${image})` }}>
-                                <div className='lg:w-2/6 flex flex-col gap-2 ml-10'>
+                                <div className='lg:w-2/6 flex flex-col gap-2 lg:ml-10 ml-2 w-[64%]'>
                                     <h1 className='lg:text-3xl font-bold text-xl'>Asthetic Excellence for Ageless Beauty</h1>
                                     <p className='font-xl font-semibold'>Welcome to Lam Aesthetics Clinic — your destination for safe, effective, and elegant facial rejuvenation treatments. Specializing in Botox, Dermal Fillers, and Skin Boosters, we help you look and feel your best.
 
