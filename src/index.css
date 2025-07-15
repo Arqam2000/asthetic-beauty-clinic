@@ -79,6 +79,12 @@ button:focus-visible {
   height: 500px;
 }
 
+@media screen and (max-width: 768px) {
+  .each-slide-effect > div {
+    height: 100%;
+  }
+}
+
 .each-slide-effect span {
   padding: 20px;
   font-size: 20px;
