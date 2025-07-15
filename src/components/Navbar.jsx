@@ -4,7 +4,11 @@ import tlogo from "../assets/tlogo-white.jpeg"
 const navbar = () => {
     return (
         <nav className='flex justify-around items-center shadow p-0 m-0 py-4 h-20'>
-            <div><img src={tlogo} alt="" className='w-16' /></div>
+            <div className='flex items-center gap-2'>
+                <div><img src={tlogo} alt="" className='w-16' /></div>
+                <h1 className='text-xl font-semibold'>Lam Asthetic Studio</h1>
+            </div>
+
             <div className='hidden md:block'>
                 <a href="" className='no-underline text-black text-base mr-5'>Home</a>
                 <a href="" className='no-underline text-black text-base mr-5'>About Us</a>
