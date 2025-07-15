@@ -10,7 +10,7 @@ const Services = () => {
             <div className='ml-10 my-3 font-semibold'>
                 <h1 className='text-3xl'>Services</h1>
             </div>
-            <div className='flex items-start flex-wrap sm:flex-nowrap mx-10 gap-3'>
+            <div className='flex items-start flex-wrap sm:flex-nowrap lg:mx-10 gap-3'>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
                         <img src={slider1} alt="" className='w-full'/>
