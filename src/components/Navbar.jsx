@@ -1,5 +1,6 @@
 import React from 'react'
 import tlogo from "../assets/tlogo-white.jpeg"
+import { Link } from 'react-router-dom'
 
 const navbar = () => {
     return (
@@ -10,14 +11,14 @@ const navbar = () => {
             </div>
 
             <div className='hidden md:block'>
-                <a href="" className='no-underline text-black text-base mr-5'>Home</a>
-                <a href="" className='no-underline text-black text-base mr-5'>About Us</a>
-                <a href="" className='no-underline text-black text-base mr-5'>Treatments</a>
-                <a href="" className='no-underline text-black text-base mr-5'>Prices</a>
-                <a href="contact-us" className='no-underline text-black text-base '>Contact Us</a>
+                <Link to="/" className='no-underline text-black text-base mr-5'>Home</Link>
+                <Link to="/about-us" className='no-underline text-black text-base mr-5'>About Us</Link>
+                <Link to="/treatments" className='no-underline text-black text-base mr-5'>Treatments</Link>
+                <Link to="/prices" className='no-underline text-black text-base mr-5'>Prices</Link>
+                <Link to="/contact-us" className='no-underline text-black text-base '>Contact Us</Link>
             </div>
             <div className='hidden md:block'>
-                <button className='bg-[#A64166] text-white rounded-full py-2 px-5'>Book Appointment</button>
+                <Link to="/book-appointment" className='bg-[#A64166] text-white rounded-full py-2 px-5'>Book Appointment</Link>
             </div>
             <div className='md:hidden'>
                 <span className='text-3xl'>&equiv;</span>
