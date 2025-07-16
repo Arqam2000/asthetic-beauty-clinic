@@ -27,7 +27,7 @@ const navbar = () => {
             <div className='hidden md:block'>
                 <Link to="/book-appointment" className='bg-[#A64166] text-white rounded-full py-2 px-5'>Book Appointment</Link>
             </div>
-            <div className='md:hidden' onClick={toggle}>
+            <div className='md:hidden z-10' id="menu" onClick={toggle}>
                 <span className='text-3xl'>&equiv;</span>
             </div>
 
