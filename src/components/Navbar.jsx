@@ -14,7 +14,7 @@ const navbar = () => {
                 <a href="" className='no-underline text-black text-base mr-5'>About Us</a>
                 <a href="" className='no-underline text-black text-base mr-5'>Treatments</a>
                 <a href="" className='no-underline text-black text-base mr-5'>Prices</a>
-                <a href="" className='no-underline text-black text-base '>Contact Us</a>
+                <a href="contact-us" className='no-underline text-black text-base '>Contact Us</a>
             </div>
             <div className='hidden md:block'>
                 <button className='bg-[#A64166] text-white rounded-full py-2 px-5'>Book Appointment</button>

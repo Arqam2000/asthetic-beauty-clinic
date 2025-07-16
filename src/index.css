@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "react-slideshow-image/dist/styles.css";
 
+*{
+  box-sizing: border-box;
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
