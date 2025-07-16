@@ -50,7 +50,7 @@ const Footer = () => {
                 {/* third portion */}
                 <div className='flex flex-col items-center lg:flex-row lg:items-start lg:gap-1 gap-3 '>
                     <div className='flex flex-col lg:gap-2 gap-3'>
-                        <h1 className='text-xl font-semibold self-center'>Working Time</h1>
+                        <h1 className='text-xl font-semibold self-center lg:self-start'>Working Time</h1>
                         <p className='text-sm'>Mon, Wed, Fri: 2:00PM - 7:00PM</p>
                         <p className='text-sm'>Tue, Thu: 5:00PM - 7:00PM</p>
                     </div>
