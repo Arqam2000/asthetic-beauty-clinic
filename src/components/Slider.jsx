@@ -20,7 +20,7 @@ const Slider = () => {
                     images.map((image, index) => (
                         <div className="each-slide-effect">
                             <div style={{ 'backgroundImage': `url(${image})` }}>
-                                <div className='mx-2 mb-2'>
+                                <div className='mx-2 mb-2 lg:mx-11'>
                                     <h1 className='lg:text-xl font-bold text-base text-[#ff0a64] italic'>Asthetic Excellence for Ageless Beauty</h1>
                                 </div>
                                 <div className='lg:w-2/6 w-[290px]  flex flex-col gap-2 lg:ml-10 ml-2  bg-gray-300 opacity-65 px-2'>
