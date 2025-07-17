@@ -1,4 +1,4 @@
-.active {
+/* .active {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,25 +12,32 @@
     width: 64%;
     height: 100vh;
     padding-top: 70px;
-}
+} */
 
-/* @media (width<768px) {
+@media (width<768px) {
     .nav-links {
-        width: 64%;
+        width: 76%;
         height: 100vh;
         background-color: blueviolet;
+        color: white;
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        row-gap: 16px;
         transform: translateX(100%);
         transition: all 0.5s linear;
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
+        padding-top: 74px;
+        z-index: 1;
+    }
+
+    .nav-links a{
+        color: white;
     }
 
     .active{
@@ -44,4 +51,4 @@
         pointer-events: auto;
     }
 
-} */
+}
