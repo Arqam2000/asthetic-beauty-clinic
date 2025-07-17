@@ -11,13 +11,13 @@ const navbar = () => {
     }
     return (
         <>
-        <nav className='flex justify-around items-center shadow p-0 m-0 py-4 h-20'>
+        <nav className={`flex justify-around items-center shadow p-0 m-0 py-4 h-20 relative ${isActive? "active": ""}` }>
             <div className='flex items-center gap-2'>
                 <div><img src={tlogo} alt="" className='w-16' /></div>
                 <h1 className='text-xl font-semibold'>Lam Asthetic Studio</h1>
             </div>
 
-            <div className='hidden md:block '>
+            <div className='hidden md:block nav-links'>
                 <Link to="/" className='no-underline text-black text-base mr-5'>Home</Link>
                 <Link to="/about-us" className='no-underline text-black text-base mr-5'>About Us</Link>
                 <Link to="/treatments" className='no-underline text-black text-base mr-5'>Treatments</Link>
@@ -32,13 +32,13 @@ const navbar = () => {
             </div>
 
         </nav>
-        <div className={`${isActive ? "active": "hidden"}`}>
+        {/* <div className={`${isActive ? "active": "hidden"}`}>
             <Link to="/" className='no-underline text-base mr-5'>Home</Link>
                 <Link to="/about-us" className='no-underline text-base mr-5'>About Us</Link>
                 <Link to="/treatments" className='no-underline text-base mr-5'>Treatments</Link>
                 <Link to="/prices" className='no-underline text-base mr-5'>Prices</Link>
                 <Link to="/contact-us" className='no-underline text-base '>Contact Us</Link>
-        </div>
+        </div> */}
         </>
     )
 }
