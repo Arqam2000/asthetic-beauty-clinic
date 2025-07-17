@@ -4,10 +4,10 @@ const BookAppointment = () => {
   return (
     <>
       <h1 className='text-3xl font-semibold text-center my-3 mb-7'>Appointment</h1>
-      <div className='flex gap-20 justify-center items-start my-5'>
-        <div className='flex flex-col justify-center gap-4'>
+      <div className='flex lg:gap-20 gap-4 flex-col md:flex-row justify-center items-center md:items-start  my-5'>
+        <div className='flex flex-col justify-center items-center md:items-start gap-4'>
           <div>
-            <h1 className='text-[#333333] text-4xl'>We would love to serve You.</h1>
+            <h1 className='text-[#333333] md:text-4xl text-2xl'>We would love to serve You.</h1>
           </div>
           <div className='flex flex-col gap-2'>
             <h3 className='font-semibold text-[#4a4a4a]'>Business Hours</h3>
