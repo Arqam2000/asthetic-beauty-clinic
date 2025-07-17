@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "./navbar.css"
 
 const navbar = () => {
-    const [isActive, setIsActive] = useState()
+    const [isActive, setIsActive] = useState(false)
 
     function toggle() {
         setIsActive(prev => !prev)
@@ -17,7 +17,7 @@ const navbar = () => {
                 <h1 className='text-xl font-semibold'>Lam Asthetic Studio</h1>
             </div>
 
-            <div className='hidden md:block'>
+            <div className='hidden md:block '>
                 <Link to="/" className='no-underline text-black text-base mr-5'>Home</Link>
                 <Link to="/about-us" className='no-underline text-black text-base mr-5'>About Us</Link>
                 <Link to="/treatments" className='no-underline text-black text-base mr-5'>Treatments</Link>
