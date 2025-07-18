@@ -21,7 +21,7 @@ const BookAppointment = () => {
             <input type="text" placeholder='Last Name' className='outline p-1 px-3'/>
             <input type="email" placeholder='Email' className='outline p-1 px-3'/>
             <input type="tel" placeholder='Phone' className='outline p-1 px-3'/>
-            <input type="datetime-local" name="" id="" className='outline p-1 px-3'/>
+            <input type="datetime-local" name="" id="" className='outline p-1 px-3' />
             <button className='bg-[#A64166] text-white rounded-full py-2 ' type='submit'>Book Appointment</button>
           </form>
         </div>

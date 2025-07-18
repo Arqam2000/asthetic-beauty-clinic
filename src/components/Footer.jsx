@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-2'>
                         <div>
-                            <h1 className='font-semibold text-xl'>Lam Asthetic Studio</h1>
+                            <h1 className='font-semibold text-xl'>Lam Aesthetic Studio</h1>
                         </div>
                         <div className='flex flex-col justify-center lg:gap-2 gap-3'>
                             <div className='flex items-center'>

@@ -31,7 +31,7 @@ const navbar = () => {
 
             <div className='flex items-center gap-2'>
                 <div><img src={tlogo} alt="" className='w-16' /></div>
-                <h1 className='text-xl font-semibold'>Lam Asthetic Studio</h1>
+                <h1 className='text-xl font-semibold'>Lam Aesthetic Studio</h1>
             </div>
 
             <div className='hidden md:block '>
@@ -58,6 +58,7 @@ const navbar = () => {
                 <Link to="/treatments" className='no-underline text-base mr-5'>Treatments</Link>
                 <Link to="/prices" className='no-underline text-base mr-5'>Prices</Link>
                 <Link to="/contact-us" className='no-underline text-base '>Contact Us</Link>
+                <Link to="/book-appointment" className='bg-[#A64166] text-white rounded-full py-2 px-5'>Book Appointment</Link>
         </div>
         </>
     )
