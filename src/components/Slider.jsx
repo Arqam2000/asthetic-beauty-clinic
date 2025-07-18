@@ -30,7 +30,7 @@ const Slider = () => {
 
                                     </p >
                                     <p className='font-xl font-semibold text-justify text-base text-red-600'>Consultations for FREE!</p>
-                                    <Link to="/book-appointment" className='bg-[#A64166] text-white rounded-full py-2 px-3 w-[58%] lg:w-[41%]'>Book Appointment</Link>
+                                    <Link to="/book-appointment" className='bg-[#A64166] text-white rounded-full py-2 px-3 w-[58%] lg:w-[45%] xl:w-[40%] 2xl:w-[30%] text-center'>Book Appointment</Link>
                                 </div>
                             </div>
                         </div>
