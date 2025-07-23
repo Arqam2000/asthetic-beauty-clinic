@@ -15,7 +15,7 @@ const WorkingPractice = () => {
                         <img src={preTreatmentLogo} alt="" className='w-[170px]' />
                     </div>
                     <div>
-                        <h3 className='font-semibold text-xl'>Pre-Treatment Session</h3>
+                        <h3 className='font-semibold text-xl mt-3 mb-1'>Pre-Treatment Session</h3>
                         <p className='text-justify'>Every treatment begins with a private consultation. Our specialists assess your concerns, examine your facial profile, and recommend the most suitable options for you</p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const WorkingPractice = () => {
                         <img src={treatmentLogo} alt="" className='w-[170px]' />
                     </div>
                     <div>
-                        <h3 className='font-semibold text-xl'>Treatment</h3>
+                        <h3 className='font-semibold text-xl mt-3 mb-1'>Treatment</h3>
                         <p className='text-justify'>After your consultation, we move on to the treatment.  We take great care to make sure everything is done safely and to the highest standard. We want you to leave feeling confident and refreshed.</p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const WorkingPractice = () => {
                         <img src={postTreatmentLogo} alt="" className='w-[170px]' />
                     </div>
                     <div>
-                        <h3 className='font-semibold text-xl'>Post-Treatment Guidance</h3>
+                        <h3 className='font-semibold text-xl mt-3 mb-1'>Post-Treatment Guidance</h3>
                         <p className='text-justify'>After your consultation, we move on to the treatment.  We take great care to make sure everything is done safely and to the highest standard. We want you to leave feeling confident and refreshed.</p>
                     </div>
                 </div>

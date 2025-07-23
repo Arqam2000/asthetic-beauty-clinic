@@ -45,6 +45,7 @@ const Prices = () => {
               <p>£150</p>
               <p>£180</p>
               <p>£210</p>
+              
             </div>
           </div>
           
@@ -53,8 +54,12 @@ const Prices = () => {
             <div>
               <h2 className='font-semibold'>Portfolio Treatment</h2>
               <p>Single Treatment Injection</p>
+              <p>Eyebrows Lift</p>
             </div>
-            <div><p>£190</p></div>
+            <div>
+              <p>£190</p>
+              <p>£150</p>
+            </div>
           </div>
           
         </div>

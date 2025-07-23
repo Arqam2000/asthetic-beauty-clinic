@@ -1,9 +1,8 @@
-import React from 'react'
-import slider1 from "../assets/look-studio-HtXyytr9304-unsplash.jpg"
+// import slider1 from "../assets/look-studio-HtXyytr9304-unsplash.jpg"
+import slider1 from "../assets/2783.jpg"
 import slider2 from "../assets/Slider.png"
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import { Zoom } from 'react-slideshow-image';
 import { Link } from 'react-router-dom';
 
 const Slider = () => {
