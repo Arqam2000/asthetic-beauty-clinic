@@ -8,7 +8,7 @@ const Treatments = () => {
       <div className='md:h-[272px] text-center flex flex-col gap-4 md:flex-row items-center md:justify-evenly md:items-center mx-5'>
         <div className='flex flex-col items-center md:w-1/2 md:ml-9'>
           <h1 className='text-4xl font-semibold mb-4'>Treatments</h1>
-          <p className=''>"After a consultation, Sitara Clinic offers a wide range of treatments—from anti-wrinkle procedures for both women and men, to dermal and lip fillers, PRP, and skin boosters. We’re confident we have a treatment that will suit your needs and help you glow."</p>
+          <p className=''>"After a consultation, Lam Aesthetic Clinic offers a wide range of treatments—from anti-wrinkle procedures for both women and men, to dermal and lip fillers, PRP, and skin boosters. We’re confident we have a treatment that will suit your needs and help you glow."</p>
         </div>
         <div className=''>
           <img src={img} alt="treatment" className='w-full h-64' />
