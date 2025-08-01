@@ -34,7 +34,7 @@ const navbar = () => {
                 <h1 className='text-xl font-semibold'>Lam Aesthetic Studio</h1>
             </div>
 
-            <div className='hidden md:block '>
+            <div className='hidden lg:block '>
                 <Link to="/" className='no-underline text-black text-base mr-5'>Home</Link>
                 <Link to="/about-us" className='no-underline text-black text-base mr-5'>About Us</Link>
                 <Link to="/treatments" className='no-underline text-black text-base mr-5'>Treatments</Link>
@@ -42,17 +42,17 @@ const navbar = () => {
                 <Link to="/contact-us" className='no-underline text-black text-base '>Contact Us</Link>
             </div>
 
-            <div className='hidden md:block'>
+            <div className='hidden lg:block'>
                 <Link to="/book-appointment" className='bg-[#A64166] text-white rounded-full py-2 px-5'>Book Appointment</Link>
             </div>
-            <div className='md:hidden z-10' id="menu" onClick={toggle}>
+            <div className='lg:hidden z-10' id="menu" onClick={toggle}>
                 <span className={`${isActive ? "text-white": "text-black"} text-3xl`}>&equiv;</span>
             </div>
 
         </nav>
 
         {/* Mobile Menu */}
-        <div className={`${isActive ? "active": "hidden"}`}>
+        <div className={`${isActive ? "active": "hidden"} hidden`}>
             <Link to="/" className='no-underline text-base mr-5'>Home</Link>
                 <Link to="/about-us" className='no-underline text-base mr-5'>About Us</Link>
                 <Link to="/treatments" className='no-underline text-base mr-5'>Treatments</Link>

@@ -2,8 +2,11 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className='h-[272px] text-center'>
-      <h1 className='text-2xl font-semibold'>About Us</h1>
+    <div className='h-[272px] text-center flex items-center'>
+      <div className='sm:w-3/4 md:w-1/2 mx-auto p-3 rounded-md'>
+        <h1 className='text-3xl font-semibold mb-3'>About Us</h1>
+        <p className='text-justify'>I am a dedicated aesthetic clinician with over 29 years of experience as a medical doctor and 6 years specialising in aesthetic medicine. My approach combines medical expertise with an eye for natural beauty, delivering safe, effective, and tailored treatments. I take pride in achieving consistently excellent results and building long-term trust with my clients.</p>
+      </div>
     </div>
   )
 }

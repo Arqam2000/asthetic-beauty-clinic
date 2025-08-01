@@ -1,6 +1,10 @@
 import img from "../assets/2148825310.jpg"
 // import lipFillerImg from "../assets/ChatGPT Image Jun 12, 2025, 02_52_57 PM.png"
 import lipFillerImg from "../assets/karelys-ruiz-PqyzuzFiQfY-unsplash.jpg"
+import botox from "../assets/botox-anti-wrinkle.png"
+import dermalFillers from "../assets/dermal-fillers.png"
+import eyebrowLift from "../assets/eyebrowlift.png"
+import profhilo from "../assets/profhilo.jpg"
 
 const Treatments = () => {
   return (
@@ -15,7 +19,7 @@ const Treatments = () => {
         </div>
       </div>
       <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
-        <div className='md:w-1/2 w-[80%]'>
+        <div className='md:w-[35%] w-[80%]'>
           <h1 className='font-semibold text-3xl my-3'>Lip Fillers</h1>
           <p>Lip fillers, also known as lip injections or lip augmentation, are a cosmetic procedure that uses injectable fillers, usually hyaluronic acid (HA), to enhance the volume, shape, and definition of the lips. These fillers can add plumpness, smooth out wrinkles around the mouth, and improve lip symmetry.
             Purpose:
@@ -28,6 +32,46 @@ const Treatments = () => {
         </div>
         <div className='md:w-[380px] w-[250px]'>
           <img src={lipFillerImg} alt="lipFillerImg" className='h-full w-full' />
+        </div>
+
+      </div>
+      <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
+        <div className='md:w-[35%] w-[80%]'>
+          <h1 className='font-semibold text-3xl my-3'>Botox (Anti-Wrinkle Injections)</h1>
+          <p>Botulinum toxin is used to temporarily relax facial muscles, reducing the appearance of fine lines and wrinkles—most commonly on the forehead, around the eyes (crow’s feet), and frown lines. Results appear within days and last 3–4 months.</p>
+        </div>
+        <div className='md:w-[380px] w-[250px]'>
+          <img src={botox} alt="botox" className='h-full w-full' />
+        </div>
+
+      </div>
+      <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
+        <div className='md:w-[35%] w-[80%]'>
+          <h1 className='font-semibold text-3xl my-3'>Dermal Fillers</h1>
+          <p>Hyaluronic acid-based fillers restore lost volume, smooth out deeper lines, and enhance facial contours such as cheeks, lips, jawline, and nasolabial folds. Results are immediate and can last 6–18 months depending on the area treated.</p>
+        </div>
+        <div className='md:w-[380px] w-[250px]'>
+          <img src={dermalFillers} alt="dermalFillers" className='h-full w-full' />
+        </div>
+
+      </div>
+      <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
+        <div className='md:w-[35%] w-[80%]'>
+          <h1 className='font-semibold text-3xl my-3'>Profhilo</h1>
+          <p>A revolutionary injectable skin treatment that hydrates and remodels the skin using pure hyaluronic acid. Unlike fillers, it spreads beneath the skin to improve tone, texture, and elasticity. Ideal for dull, ageing, or lax skin on the face, neck, or hands.</p>
+        </div>
+        <div className='md:w-[380px] w-[250px]'>
+          <img src={profhilo} alt="profhilo" className='h-full w-full' />
+        </div>
+
+      </div>
+      <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
+        <div className='md:w-[35%] w-[80%]'>
+          <h1 className='font-semibold text-3xl my-3'>Non-Surgical Eyebrow Lift (Botox Brow Lift)</h1>
+          <p>A subtle lift of the eyebrows using Botox to relax specific muscles and open up the eye area, creating a refreshed and youthful appearance without</p>
+        </div>
+        <div className='md:w-[380px] w-[250px]'>
+          <img src={eyebrowLift} alt="eyebrowLift" className='h-full w-full' />
         </div>
 
       </div>
