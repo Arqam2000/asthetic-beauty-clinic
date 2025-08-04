@@ -1,4 +1,5 @@
-import tlogo from "../assets/tlogo.png"
+// import tlogo from "../assets/tlogo.png"
+import tlogo from "../assets/tlogo-upd-blue.png"
 import locationLogo from "../assets/arrows.png"
 import phoneLogo from "../assets/telephone.png"
 import emailLogo from "../assets/letter.png"

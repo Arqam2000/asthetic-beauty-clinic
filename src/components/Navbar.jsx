@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import tlogo from "../assets/tlogo-white.jpeg"
+// import tlogo from "../assets/tlogo-white.jpeg"
+import tlogo from "../assets/tlogo-upd-white.png"
 import { Link } from 'react-router-dom'
 import "./navbar.css"
 import { useLocation } from 'react-router-dom'
