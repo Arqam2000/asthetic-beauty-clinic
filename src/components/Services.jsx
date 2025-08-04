@@ -25,7 +25,7 @@ const Services = () => {
                         <img src={slider2} alt="" className='w-full'/>
                     </div>
                     <div>
-                        <h3 className='font-semibold text-xl mt-2 mb-1'>Derma filler</h3>
+                        <h3 className='font-semibold text-xl mt-2 mb-1'>Dermal filler</h3>
                         <p>Dermal fillers, also known as soft tissue fillers, are injectable substances used to restore facial volume, smooth lines, and enhance contours by adding fullness to the skin. They are commonly used to address signs of aging, such as wrinkles, fine lines, and sagging skin, and can also be used to augment facial features like lips and cheeks. Read more</p>
                     </div>
                 </div>

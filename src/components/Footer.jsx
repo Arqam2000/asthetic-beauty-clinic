@@ -23,8 +23,10 @@ const Footer = () => {
                                     <div className='w-6'>
                                         <img src={locationLogo} alt="location" />
                                     </div>
-                                    <p className='text-sm'>53 high ash Avenue
-                                        LS178RS</p>
+                                    <p className='text-sm'>53 High Ash Avenue<br />
+                                        Alwoodley
+                                        Leeds
+                                        Ls17 8RS</p>
                                 </div>
                                 <div className='flex items-center'>
                                     <div className='w-6'>
@@ -63,7 +65,7 @@ const Footer = () => {
 
                 {/* Bottom Footer */}
                 <div className='bg-[#4B54AD] h-10 flex items-center justify-center border-t border-t-gray-400'>
-                    <p className='text-white text-sm'>Copyright © 2025 Asthetic Studio</p>
+                    <p className='text-white text-sm'>Copyright © 2025 Aesthetic Studio</p>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ const Prices = () => {
               <h2 className='font-semibold'>Lip Fillers</h2>
               <p>Juvederm (0.5/1ml)</p>
             </div>
-            <div><p>£155 / £210</p></div>
+            <div><p>£155 / £200</p></div>
           </div>
     
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
@@ -52,7 +52,7 @@ const Prices = () => {
          
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
-              <h2 className='font-semibold'>Portfolio Treatment</h2>
+              <h2 className='font-semibold'>Profhilo Treatment</h2>
               <p>Single Treatment Injection</p>
               <p>Eyebrows Lift</p>
             </div>
