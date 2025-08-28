@@ -17,7 +17,8 @@ const Prices = () => {
               <h2 className='font-semibold'>Lip Fillers</h2>
               <p>Juvederm (0.5/1ml)</p>
             </div>
-            <div><p>£155 / £200</p></div>
+            {/* <div><p>£155 / £200</p></div> */}
+            <div><p>£180</p></div>
           </div>
     
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
@@ -37,11 +38,13 @@ const Prices = () => {
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
               <h2 className='font-semibold'>Botox</h2>
+              <p>Eyebrows Lift</p>
               <p>1 area</p>
               <p>2 areas</p>
               <p>3 areas</p>
             </div>
             <div>
+              <p>£150</p>
               <p>£150</p>
               <p>£180</p>
               <p>£210</p>
@@ -54,12 +57,27 @@ const Prices = () => {
             <div>
               <h2 className='font-semibold'>Profhilo Treatment</h2>
               <p>Single Treatment Injection</p>
-              <p>Eyebrows Lift</p>
+              
             </div>
             <div>
               <p>£190</p>
-              <p>£150</p>
+              
             </div>
+          </div>
+
+          <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
+            <div>
+              <h2 className='font-semibold'>Hayfever injection</h2>
+              
+            </div>
+            <div><p>£65</p></div>
+          </div>
+          <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
+            <div>
+              <h2 className='font-semibold'>Hayfever vaccine</h2>
+              
+            </div>
+            <div><p>£65</p></div>
           </div>
           
         </div>

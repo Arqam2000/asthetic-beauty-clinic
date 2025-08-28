@@ -12,6 +12,9 @@ import AboutUs from './pages/AboutUs.jsx'
 import Treatments from './pages/Treatments.jsx'
 import Prices from './pages/Prices.jsx'
 import BookAppointment from './pages/BookAppointment.jsx'
+import { AddReview } from './pages/AddReview.jsx'
+import { Reviews } from './pages/Reviews.jsx'
+import { BeforeandAftercare } from './pages/Before&Aftercare.jsx'
 
 let router = createBrowserRouter([
   {
@@ -31,8 +34,20 @@ let router = createBrowserRouter([
         Component: Treatments,
       },
       {
+        path: "aftercare",
+        Component: BeforeandAftercare,
+      },
+      {
         path: "prices",
         Component: Prices,
+      },
+      {
+        path: "add-review",
+        Component: AddReview,
+      },
+      {
+        path: "reviews",
+        Component: Reviews,
       },
       {
         path: "contact-us",

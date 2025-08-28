@@ -37,7 +37,7 @@ const Treatments = () => {
       </div>
       <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
         <div className='md:w-[35%] w-[80%]'>
-          <h1 className='font-semibold text-3xl my-3'>Botox (Anti-Wrinkle Injections)</h1>
+          <h1 className='font-semibold text-3xl my-3'>Anti-Wrinkle Injections</h1>
           <p>Botulinum toxin is used to temporarily relax facial muscles, reducing the appearance of fine lines and wrinkles—most commonly on the forehead, around the eyes (crow’s feet), and frown lines. Results appear within days and last 3–4 months.</p>
         </div>
         <div className='md:w-[380px] w-[250px]'>

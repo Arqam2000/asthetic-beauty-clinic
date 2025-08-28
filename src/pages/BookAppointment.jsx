@@ -45,7 +45,7 @@ const BookAppointment = () => {
             <input type="text" placeholder='Last Name' className='outline p-1 px-3' name='Lname' required />
             <input type="email" placeholder='Email' className='outline p-1 px-3' name='Email' required />
             <input type="tel" placeholder='Phone' className='outline p-1 px-3' name='Phone' required />
-            <input type="datetime-local" name="time" id="myDateTimeInput" className='outline p-1 px-3' required value="2025-08-04 15:30:00" />
+            <input type="datetime-local" name="time" id="myDateTimeInput" className='outline p-1 px-3' required defaultValue={Date.now().toLocaleString()} />
             <button className='bg-[#A64166] text-white rounded-full py-2 cursor-pointer' type='submit'>Book Appointment</button>
           </form>
         </div>
