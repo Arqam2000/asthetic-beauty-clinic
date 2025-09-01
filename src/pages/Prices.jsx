@@ -64,14 +64,7 @@ const Prices = () => {
               
             </div>
           </div>
-
-          <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
-            <div>
-              <h2 className='font-semibold'>Hayfever injection</h2>
-              
-            </div>
-            <div><p>£65</p></div>
-          </div>
+          
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
               <h2 className='font-semibold'>Hayfever vaccine</h2>

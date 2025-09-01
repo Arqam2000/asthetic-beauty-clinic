@@ -15,6 +15,7 @@ import BookAppointment from './pages/BookAppointment.jsx'
 import { AddReview } from './pages/AddReview.jsx'
 import { Reviews } from './pages/Reviews.jsx'
 import { BeforeandAftercare } from './pages/Before&Aftercare.jsx'
+import { Appointments } from './pages/Appointments.jsx'
 
 let router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ let router = createBrowserRouter([
       {
         path: "reviews",
         Component: Reviews,
+      },
+      {
+        path: "appointments",
+        Component: Appointments,
       },
       {
         path: "contact-us",

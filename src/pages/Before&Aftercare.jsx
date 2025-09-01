@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BeforeandAftercare = () => {
     return (
-        <div className='flex-1'>
+        <div className='flex-1 bg-gray-100'>
             <div className='w-[90%] lg:w-1/2 mx-auto my-5'>
                 <h1 className='font-semibold text-2xl'>Fillers and Botox Aftercare</h1>
                 <p className='my-2 text-xl'>

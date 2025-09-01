@@ -53,6 +53,9 @@ const navbar = () => {
                                 <Link to="/reviews" className="block px-4 py-2 hover:bg-blue-100">
                                     All Reviews
                                 </Link>
+                                <Link to="/appointments" className="block px-4 py-2 hover:bg-blue-100">
+                                    Appointments
+                                </Link>
                             </div>
                         </div>
                     </div>
