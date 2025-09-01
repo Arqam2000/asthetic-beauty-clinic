@@ -9,7 +9,15 @@ export const Appointments = () => {
             const resp = await axios.get("/api/v1/appointment")
 
             if (resp.data.success) {
-                setAppointments(resp.data.appointments)
+                const newArr = resp.data.appointments.map(appt => {
+                    
+                    let newObj = {...appt, bdate: new Date(appt.bdate).toDateString()}
+                    
+                    return newObj
+                })
+                // console.log("newArr", newArr)
+                // console.log("last date:", new Date(resp.data.date).toDateString())
+                setAppointments(newArr)
             }
         } catch (error) {
             console.log("Error:", error)
@@ -19,6 +27,7 @@ export const Appointments = () => {
     useEffect(() => {
         getAppointments()
     }, [])
+    
     return (
         <div className=' gap-3 items-center flex-1'>
             {/* <h1 className='font-semibold text-2xl text-center'>Appointments</h1> */}
@@ -41,7 +50,7 @@ export const Appointments = () => {
                     {appointments.map((appt, index) => (
                         <div key={index} className="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition">
                             <h3 className="text-lg font-bold text-gray-800">{appt.name}</h3>
-                            <p className="text-sm text-gray-500 mb-2">{appt.bdate.toLocaleString()}</p>
+                            <p className="text-sm text-gray-500 mb-2">{appt.bdate}</p>
                             <p className="text-sm text-gray-700">📧 {appt.email}</p>
                             <p className="text-sm text-gray-700">📞 {appt.phone}</p>
                         </div>
