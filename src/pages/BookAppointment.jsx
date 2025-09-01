@@ -32,7 +32,7 @@ const BookAppointment = () => {
     //   );
     console.log("user", user)
     try {
-      const resp = await axios.post("/api/v1/appointment", {...user})
+      const resp = await axios.post("https://lam-backend-sooty.vercel.app/api/v1/appointment", {...user})
       console.log(resp.data)
 
       if(resp.data.success){

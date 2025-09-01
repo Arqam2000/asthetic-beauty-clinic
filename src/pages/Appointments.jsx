@@ -6,12 +6,12 @@ export const Appointments = () => {
 
     const getAppointments = async () => {
         try {
-            const resp = await axios.get("/api/v1/appointment")
+            const resp = await axios.get("https://lam-backend-sooty.vercel.app/api/v1/appointment")
 
             if (resp.data.success) {
                 const newArr = resp.data.appointments.map(appt => {
                     
-                    let newObj = {...appt, bdate: new Date(appt.bdate).toDateString()}
+                    let newObj = {...appt, bdate: new Date(appt.bdate).toLocaleString()}
                     
                     return newObj
                 })

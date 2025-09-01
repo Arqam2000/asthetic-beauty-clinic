@@ -79,17 +79,20 @@ const navbar = () => {
                 <Link to="/treatments" className='no-underline text-base mr-5'>Treatments</Link>
                 <Link to="/prices" className='no-underline text-base mr-5'>Prices</Link>
                 <div className='relative group'>
-                    <div className='no-underline text-base mr-5 flex items-center' onClick={()=> setOpen(prev => !prev)}>
+                    <div className='no-underline text-base mr-5 flex items-center' onClick={() => setOpen(prev => !prev)}>
                         Reviews <ChevronDown size={16} />
                         {
                             open && <div className="absolute left-0 top-6 mt-2 w-40 bg-white text-gray-800 rounded-lg shadow-lg border transition z-20">
-                            <Link to="/add-review" className="block px-4 py-2 hover:bg-blue-100">
-                                Add Review
-                            </Link>
-                            <Link to="/reviews" className="block px-4 py-2 hover:bg-blue-100">
-                                All Reviews
-                            </Link>
-                        </div>
+                                <Link to="/add-review" className="block px-4 py-2 hover:bg-blue-100">
+                                    Add Review
+                                </Link>
+                                <Link to="/reviews" className="block px-4 py-2 hover:bg-blue-100">
+                                    All Reviews
+                                </Link>
+                                <Link to="/appointments" className="block px-4 py-2 hover:bg-blue-100">
+                                    Appointments
+                                </Link>
+                            </div>
                         }
                     </div>
                 </div>
