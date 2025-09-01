@@ -11,8 +11,9 @@ export const Appointments = () => {
             if (resp.data.success) {
                 const newArr = resp.data.appointments.map(appt => {
                     
-                    let newObj = {...appt, bdate: new Date(appt.bdate).toLocaleString()}
-                    
+                    let newObj = {...appt, bdate: new Date(appt.bdate).toISOString()}
+                    const isoDate = new Date(appt.bdate).toISOString()
+                    console.log("date:", isoDate)
                     return newObj
                 })
                 // console.log("newArr", newArr)

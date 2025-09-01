@@ -4,11 +4,11 @@ export const BeforeandAftercare = () => {
     return (
         <div className='flex-1 bg-gray-100'>
             <div className='w-[90%] lg:w-1/2 mx-auto my-5'>
-                <h1 className='font-semibold text-2xl'>Fillers and Botox Aftercare</h1>
+                <h1 className='font-semibold text-2xl'>Fillers and Anti Wrinkles Aftercare</h1>
                 <p className='my-2 text-xl'>
                     After your treatment, it’s important to follow some simple steps to reduce swelling and bruising.
 
-                    <span className='font-medium block text-xl my-3'>What to Do After Fillers and Botox</span>
+                    <span className='font-medium block text-xl my-3'>What to Do After Fillers and Anti Wrinkles</span>
 
                     <li className="my-3">Wrap some ice in a clean cloth and gently place it on the treated area for about 10 minutes. You can repeat this every 30 minutes for the first 4 hours.
                     </li>
@@ -16,7 +16,7 @@ export const BeforeandAftercare = () => {
 
                     <li className="my-3">For the first 2 nights, sleep on your back with your head slightly raised using extra pillows.</li>
 
-                    <span className='font-medium block text-xl my-3'>What to Avoid After Fillers and Botox</span>
+                    <span className='font-medium block text-xl my-3'>What to Avoid After Fillers and Anti Wrinkles</span>
 
                     <li className="my-3">Don’t put ice directly on your skin.</li>
 
@@ -42,7 +42,7 @@ export const BeforeandAftercare = () => {
 
                     <span className='font-medium block text-xl my-3'>When to Seek Medical Advice</span>
 
-                    Fillers and Botox are generally very safe, and serious problems are rare. However, call your practitioner if you notice increased swelling, redness, or pain after 24 hours.
+                    Fillers and Anti Wrinkles are generally very safe, and serious problems are rare. However, call your practitioner if you notice increased swelling, redness, or pain after 24 hours.
 
                     Seek urgent medical help if you experience:
 

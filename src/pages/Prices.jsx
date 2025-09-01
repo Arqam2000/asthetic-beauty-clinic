@@ -14,6 +14,13 @@ const Prices = () => {
         <div className='p-3 pt-0 px-0 mx-20 w-full'>
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
+              <h2 className='font-semibold'>Free Consultation</h2>
+            </div>
+            {/* <div><p>£155 / £200</p></div> */}
+            <div><p></p></div>
+          </div>
+          <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
+            <div>
               <h2 className='font-semibold'>Lip Fillers</h2>
               <p>Juvederm (0.5/1ml)</p>
             </div>
@@ -37,7 +44,7 @@ const Prices = () => {
 
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
-              <h2 className='font-semibold'>Botox</h2>
+              <h2 className='font-semibold'>Anti Wrinkles</h2>
               <p>Eyebrows Lift</p>
               <p>1 area</p>
               <p>2 areas</p>

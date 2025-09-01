@@ -16,8 +16,8 @@ const Services = () => {
                         <img src={slider1} alt="" className='w-full'/>
                     </div>
                     <div>
-                        <h3 className='font-semibold text-xl mt-2 mb-1'>Botox</h3>
-                        <p>A Botox brow lift is a non-surgical cosmetic procedure designed to subtly lift and shape the eyebrows. This technique targets specific muscles in the forehead – relaxing those that pull the brows downward while allowing the upward-pulling muscles to create a gentle elevation. Read More</p>
+                        <h3 className='font-semibold text-xl mt-2 mb-1'>Anti Wrinkles</h3>
+                        <p>An anti-wrinkle brow lift is a non-surgical cosmetic procedure designed to subtly lift and shape the eyebrows. This technique targets specific muscles in the forehead – relaxing those that pull the brows downward while allowing the upward-pulling muscles to create a gentle elevation. Read More</p>
                     </div>
                 </div>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
