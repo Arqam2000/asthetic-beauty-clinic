@@ -101,7 +101,7 @@ const CustomerReviews = () => {
                                     <h3 className="text-lg font-semibold text-gray-800">
                                         {review.cname}
                                     </h3>
-                                    <span className="text-sm text-gray-500">{review.rdate}</span>
+                                    <span className="text-sm text-gray-500">{review.rdate.split("T")[0]}</span>
                                 </div>
                                 <h3 className='text-lg font-semibold'>{review.remarks}</h3>
                                 {/* Comment */}
