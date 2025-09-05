@@ -31,9 +31,9 @@ const Prices = () => {
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
               <h2 className='font-semibold'>Derma Fillers</h2>
-              <p>Nasolabial Folds</p>
+              <p>Nasolabial Lines (nose to mouth)</p>
               <p>Frown Line</p>
-              <p>Marionette Line</p>
+              <p>Marionette Line (outer corner of mouth to chin)</p>
             </div>
             <div>
               <p>£200</p>
@@ -63,12 +63,10 @@ const Prices = () => {
           <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
             <div>
               <h2 className='font-semibold'>Profhilo Treatment</h2>
-              <p>Single Treatment Injection</p>
-              
+              <p>Profhilo discount price</p>
             </div>
             <div>
-              <p>£190</p>
-              
+              <p>£190 (was £275)</p>
             </div>
           </div>
           
@@ -78,6 +76,13 @@ const Prices = () => {
               
             </div>
             <div><p>£65</p></div>
+          </div>
+          <div className='flex justify-between items-center p-3 border-b-[1px] border-b-[#dcbae3]'>
+            <div>
+              <h2 className='font-semibold'>Dissolving filler injection</h2>
+              
+            </div>
+            <div><p>£150</p></div>
           </div>
           
         </div>

@@ -10,7 +10,7 @@ export default function CustomerReviewForm() {
     const [error, setError] = useState(null);
     const [formData, setFormData] = useState({
         name: "",
-        designation: "",
+        designation: "", 
         remarks: "",
         comments: "",
     });
@@ -63,7 +63,6 @@ export default function CustomerReviewForm() {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            required
                             className="w-full px-4 py-2 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
                             placeholder="Enter your name"
                         />
@@ -76,10 +75,9 @@ export default function CustomerReviewForm() {
                         </label>
                         <input
                             type="text"
-                            name="profession"
+                            name="designation"
                             value={formData.designation}
                             onChange={handleChange}
-                            required
                             className="w-full px-4 py-2 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
                             placeholder="Profession"
                         />
@@ -96,7 +94,6 @@ export default function CustomerReviewForm() {
                             name="remarks"
                             value={formData.remarks}
                             onChange={handleChange}
-                            required
                             className="w-full px-4 py-2 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
                             placeholder="Remarks"
                         />
@@ -111,7 +108,6 @@ export default function CustomerReviewForm() {
                             name="comments"
                             value={formData.comments}
                             onChange={handleChange}
-                            required
                             rows="4"
                             className="w-full px-4 py-2 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
                             placeholder="Write your feedback..."

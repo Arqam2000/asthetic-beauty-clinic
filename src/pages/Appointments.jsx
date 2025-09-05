@@ -10,11 +10,38 @@ export const Appointments = () => {
 
             if (resp.data.success) {
                 const newArr = resp.data.appointments.map(appt => {
-                    
-                    let newObj = {...appt, bdate: new Date(appt.bdate).toISOString()}
-                    const isoDate = new Date(appt.bdate).toISOString()
-                    console.log("date:", isoDate)
-                    return newObj
+
+                    // let newObj = {...appt, bdate: new Date(appt.bdate).toISOString()}
+                    // const isoDate = new Date(appt.bdate).toISOString()
+                    // console.log("date:", isoDate)
+                    // return newObj
+
+
+                    const isoDate = new Date(appt.bdate).toISOString();
+
+                    // Convert to Date object
+                    const date = new Date(isoDate);
+
+                    // Options for readable format
+                    const options = {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                        hour: "numeric",
+                        minute: "numeric",
+                        hour12: true, // 12-hour format
+                        timeZone: "UTC" // or your local time zone
+                    };
+
+                    const readableDate = date.toLocaleString("en-US", options);
+
+                    console.log(readableDate);
+
+                    return {
+                        ...appt,
+                        bdate: readableDate
+                    }
+
                 })
                 // console.log("newArr", newArr)
                 // console.log("last date:", new Date(resp.data.date).toDateString())
@@ -28,7 +55,7 @@ export const Appointments = () => {
     useEffect(() => {
         getAppointments()
     }, [])
-    
+
     return (
         <div className=' gap-3 items-center flex-1'>
             {/* <h1 className='font-semibold text-2xl text-center'>Appointments</h1> */}
