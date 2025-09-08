@@ -5,6 +5,7 @@ import botox from "../assets/botox-anti-wrinkle.png"
 import dermalFillers from "../assets/dermal-fillers.png"
 import eyebrowLift from "../assets/eyebrowlift.png"
 import profhilo from "../assets/profhilo.jpg"
+import bunnyLines from "../assets/Bunnylines.png"
 
 const Treatments = () => {
   return (
@@ -72,6 +73,18 @@ const Treatments = () => {
         </div>
         <div className='md:w-[380px] w-[250px]'>
           <img src={eyebrowLift} alt="eyebrowLift" className='h-full w-full' />
+        </div>
+
+      </div>
+      <div className='flex flex-col items-center gap-4 md:flex-row md:justify-around w-full my-3 md:w-[90%] md:mx-auto mt-8'>
+        <div className='md:w-[35%] w-[80%]'>
+          <h1 className='font-semibold text-3xl my-3'>Bunny lines treatment</h1>
+          <p>Bunny lines are small, slanting wrinkles that appear on either side of the nose, usually running from the bridge to the area immediately below the eye. They are often even more pronounced when girls laugh or smile.
+
+            Recurring movement of these muscles in time can cause lines to form that remain visible even when the muscles are at rest.</p>
+        </div>
+        <div className='md:w-[250px] w-[200px]'>
+          <img src={bunnyLines} alt="eyebrowLift" className='h-full w-full' />
         </div>
 
       </div>

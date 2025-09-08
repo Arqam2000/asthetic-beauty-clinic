@@ -46,11 +46,13 @@ const Prices = () => {
             <div>
               <h2 className='font-semibold'>Anti Wrinkles</h2>
               <p>Eyebrows Lift</p>
+              <p>Bunny lines treatment</p>
               <p>1 area</p>
               <p>2 areas</p>
               <p>3 areas</p>
             </div>
             <div>
+              <p>£150</p>
               <p>£150</p>
               <p>£150</p>
               <p>£180</p>
