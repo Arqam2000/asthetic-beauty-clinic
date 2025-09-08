@@ -84,7 +84,7 @@ const Treatments = () => {
             Recurring movement of these muscles in time can cause lines to form that remain visible even when the muscles are at rest.</p>
         </div>
         <div className='md:w-[250px] w-[200px]'>
-          <img src={bunnyLines} alt="eyebrowLift" className='h-full w-full' />
+          <img src={bunnyLines} alt="bunnyLines" className='h-full w-full' />
         </div>
 
       </div>
