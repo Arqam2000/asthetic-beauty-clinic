@@ -31,8 +31,12 @@ const BookAppointment = () => {
     //     },
     //   );
     console.log("user", user)
+
+    const date = new Date(user.date)
+    const isoDate = date.toISOString()
+    console.log("isoDate", isoDate)
     try {
-      const resp = await axios.post("https://lam-backend-sooty.vercel.app/api/v1/appointment", {...user})
+      const resp = await axios.post("http://localhost:3000/api/v1/appointment", {...user})
       console.log(resp.data)
 
       if(resp.data.success){
