@@ -233,9 +233,11 @@ export default function TheBook() {
     <div className="overflow-x-auto">
       <header className="border-b pb-4 mb-6 flex justify-between items-center pt-4 px-10">
 
-        <img src={quran} alt="quran" width={100}/>
-        <h1 className="text-2xl font-semibold">Al Quran</h1>
-        <nav className="space-x-6">
+        <div className="flex items-center gap-2">
+          <img src={quran} alt="quran" width={100} />
+          <h1 className="text-2xl font-semibold">Al Quran</h1>
+        </div>
+        <nav className="space-x-6 hidden md:inline">
           <a href="#" className="text-blue-600 hover:underline">Al Haya Al Akhlaq</a>
           <a href="#" className="text-blue-600 hover:underline">Majmooa Hidayat</a>
           <a href="#" className="text-blue-600 hover:underline">Tafseer ul Quran</a>
@@ -244,10 +246,30 @@ export default function TheBook() {
           <input
             type="text"
             placeholder="Search"
-            className="border rounded px-3 py-1"
+            className="border rounded px-3 py-1 hidden md:inline"
           />
         </div>
       </header>
+
+      <section className="mb-8">
+         <h2 className="text-xl font-bold mb-2">About the Author</h2>
+         <p className="mb-4 text-justify">
+           Muhammad Shoaib Bin Hafiz Muslim was a distinguished Muslim scholar and educator,
+           renowned for his contributions to Arabic literature and education in the early 19th Century.
+           He authored three notable books, reflecting his deep understanding of Islamic teachings
+           and Arabic linguistics.
+         </p>
+         <p className="mb-4 text-justify">
+           <strong>1. Tafseer Quran</strong><br />
+           <strong>2. Majmooa Hidayat</strong><br />
+           <strong>3. Al Haya Al Akhlaq</strong><br />
+         </p>
+         <p>
+           I have tried my level best to put all as it was but since it was written in 1938 so the pages were damaged.
+           May Allah bless his soul and accept his working.
+         </p>
+       </section>
+
       <table className="w-full border border-gray-300 text-sm">
         <thead>
           <tr className="bg-gray-100">
