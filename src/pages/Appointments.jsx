@@ -16,6 +16,8 @@ export const Appointments = () => {
                     // console.log("date:", isoDate)
                     // return newObj
 
+                    console.log("appt.bdate", appt.bdate)
+
 
                     const isoDate = new Date(appt.bdate).toISOString();
 
