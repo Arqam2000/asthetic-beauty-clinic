@@ -1,7 +1,7 @@
 import React from 'react'
 import preTreatmentLogo from "../assets/doctor-visit.png"
 import treatmentLogo from "../assets/therapy1.png"
-import postTreatmentLogo from "../assets/self-consciousness1.png"
+import postTreatmentLogo from "../assets/self-consciousness1.avif"
 
 const WorkingPractice = () => {
     return (

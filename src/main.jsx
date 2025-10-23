@@ -17,11 +17,12 @@ import { Reviews } from './pages/Reviews.jsx'
 import { BeforeandAftercare } from './pages/Before&Aftercare.jsx'
 import { Appointments } from './pages/Appointments.jsx'
 import TheBook from "./pages/TheBook.jsx"
+import { HelmetProvider } from 'react-helmet-async';
 
 let router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     children: [
       {
         path: "",
@@ -73,9 +74,9 @@ let router = createBrowserRouter([
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {/* <App /> */}
-    <RouterProvider router={router} />
-    {/* <ContactUs/> */}
-  </StrictMode>,
+  // <StrictMode>
+    <HelmetProvider >
+      <RouterProvider router={router} />
+    </HelmetProvider>
+  // </StrictMode>,
 )

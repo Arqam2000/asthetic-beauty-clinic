@@ -1,6 +1,6 @@
 // import slider1 from "../assets/look-studio-HtXyytr9304-unsplash.jpg"
 import slider1 from "../assets/2783.jpg"
-import slider2 from "../assets/Slider.png"
+import slider2 from "../assets/Slider.avif"
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { Link } from 'react-router-dom';
@@ -14,7 +14,7 @@ const Slider = () => {
     ];
 
     return (
-        <div>
+        <div className="md:h-[490px]">
             <Slide autoplay={true} infinite duration={5000}>
                 {
                     images.map((image, index) => (

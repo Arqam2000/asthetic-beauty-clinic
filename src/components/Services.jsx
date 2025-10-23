@@ -1,7 +1,7 @@
 import React from 'react'
-import slider1 from "../assets/look-studio-HtXyytr9304-unsplash.jpg"
-import slider2 from "../assets/ChatGPT Image Jun 12, 2025, 02_52_57 PM.png"
-import slider3 from "../assets/karelys-ruiz-PqyzuzFiQfY-unsplash.jpg"
+import slider1 from "../assets/look-studio-HtXyytr9304-unsplash.avif"
+import slider2 from "../assets/ChatGPT Image Jun 12, 2025, 02_52_57 PM.avif"
+import slider3 from "../assets/karelys-ruiz-PqyzuzFiQfY-unsplash.avif"
 
 
 const Services = () => {
@@ -13,7 +13,7 @@ const Services = () => {
             <div className='flex items-start flex-wrap sm:flex-nowrap lg:mx-10 mx-3 gap-3'>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
-                        <img src={slider1} alt="" className='w-full'/>
+                        <img src={slider1} alt="Anti Wrinkles" className='w-full'/>
                     </div>
                     <div>
                         <h3 className='font-semibold text-xl mt-2 mb-1'>Anti Wrinkles</h3>
@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
-                        <img src={slider2} alt="" className='w-full'/>
+                        <img src={slider2} alt="Dermal filler" className='w-full'/>
                     </div>
                     <div>
                         <h3 className='font-semibold text-xl mt-2 mb-1'>Dermal filler</h3>
@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
-                        <img src={slider3} alt="" className='w-full'/>
+                        <img src={slider3} alt="Profhilo/skin booster" className='w-full'/>
                     </div>
                     <div>
                         <h3 className='font-semibold text-xl mt-2 mb-1'>Profhilo/skin booster</h3>
