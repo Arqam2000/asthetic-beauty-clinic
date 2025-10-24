@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 // import tlogo from "../assets/tlogo-white.jpeg"
-import tlogo from "../assets/tlogo-upd-white.avif"
+import tlogo from "../assets/lam-aesthetic-studio.avif"
 import { Link } from 'react-router-dom'
 import "./navbar.css"
 import { useLocation } from 'react-router-dom'
@@ -33,7 +33,7 @@ const navbar = () => {
             <nav className='flex justify-around items-center shadow p-0 m-0 py-4 h-20'>
 
                 <div className='flex items-center gap-2'>
-                    <div><img src={tlogo} alt="" className='w-16' width={64} height={64}/></div>
+                    <div><img src={tlogo} alt="Lam Aesthetic Studio" className='w-16' width={64} height={64}/></div>
                     <h1 className='text-xl font-semibold'>Lam Aesthetic Studio</h1>
                 </div>
 

@@ -1,5 +1,5 @@
 // import tlogo from "../assets/tlogo.png"
-import tlogo from "../assets/tlogo-upd-blue.avif"
+import tlogo from "../assets/lam-aesthetic-studio-blue.avif"
 import locationLogo from "../assets/arrows.png"
 import phoneLogo from "../assets/telephone.png"
 import emailLogo from "../assets/letter.png"
@@ -7,13 +7,13 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
-        <div className='relative'>
+        <footer className='relative'>
             <div className='flex flex-col mt-4 text-white '>
                 <div className='bg-[#4B54AD] px-10 py-3 flex lg:justify-between flex-col lg:flex-row'>
                     {/* first portion */}
                     <div className='flex gap-4 flex-col lg:flex-row items-center lg:items-start'>
                         <div className='w-20'>
-                            <img src={tlogo} alt="logo" className='' />
+                            <img src={tlogo} alt="Lam Aesthetic Studio" className='' />
                         </div>
                         <div className='flex flex-col gap-2'>
                             <div>
@@ -69,7 +69,7 @@ const Footer = () => {
                     <p className='text-white text-sm'>Copyright © 2025 Aesthetic Studio</p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 

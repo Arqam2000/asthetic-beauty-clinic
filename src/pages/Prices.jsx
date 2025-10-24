@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 const Prices = () => {
   return (
     <div>
-      <div>
-
-      </div>
       <div className='lg:w-[76%] w-[90%] mx-auto flex flex-col items-center p-3 mt-3 bg-[#00000005]'>
         <div className='pb-5 border-b-[1px] border-b-[#dcbae3] w-full text-center'>
           <h1 className='lg:text-3xl text-2xl font-bold font-sans'>Prices</h1>

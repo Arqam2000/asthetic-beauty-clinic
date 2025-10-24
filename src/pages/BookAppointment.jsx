@@ -70,8 +70,9 @@ const BookAppointment = () => {
             <input type="text" placeholder='Name' className='outline p-1 px-3' name='Lname' required value={user.name} onChange={(e) => setUser({...user, name: e.target.value})}/>
             <input type="email" placeholder='Email' className='outline p-1 px-3' name='Email' required value={user.email} onChange={(e) => setUser({...user, email: e.target.value})}/>
             <input type="tel" placeholder='Phone' className='outline p-1 px-3' name='Phone' required value={user.phone} onChange={(e) => setUser({...user, phone: e.target.value})}/>
+            <label htmlFor="" className='font-semibold'>Click here to select appointment date</label>
             <input type="datetime-local" name="time" id="myDateTimeInput" className='outline p-1 px-3' required  value={user.date} onChange={(e) => setUser({...user, date: e.target.value})}/>
-            <button className='bg-[#A64166] text-white rounded-full py-2 cursor-pointer' type='submit'>{loading? "Loading...": "Book Appointment"}</button>
+            <button className='bg-[#A64166] text-white rounded-full py-2 cursor-pointer' type='submit'>{loading? "Loading...": "Save Appointment"}</button>
           </form>
         </div>
       </div>

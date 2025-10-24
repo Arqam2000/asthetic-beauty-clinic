@@ -34,7 +34,7 @@ const Home = () => {
             <Slider />
             <Services />
             <WorkingPractice />
-            <div className='flex flex-col items-center gap-5 mt-4 w-full'>
+            <section className='flex flex-col items-center gap-5 mt-4 w-full'>
                 <h1 className='text-2xl font-semibold'>Customer Reviews</h1>
                 <div className='w-[90%] flex flex-col lg:flex-row justify-center gap-3 flex-wrap'>
                     {reviews.slice(0,4).map((review) => (
@@ -70,7 +70,7 @@ const Home = () => {
                     ))}
                 </div>
                 <button onClick={() => navigate("/reviews")} className='bg-blue-500 py-1 px-2 rounded text-white w-fit self-center text-xl cursor-pointer'>More Reviews</button>
-            </div>
+            </section>
         </div>
     )
 }

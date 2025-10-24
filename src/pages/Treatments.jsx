@@ -1,6 +1,6 @@
-import img from "../assets/2148825310.jpg"
+import img from "../assets/lam-aesthetic-treatments.jpg"
 // import lipFillerImg from "../assets/ChatGPT Image Jun 12, 2025, 02_52_57 PM.png"
-import lipFillerImg from "../assets/karelys-ruiz-PqyzuzFiQfY-unsplash.jpg"
+import lipFillerImg from "../assets/lam-aesthetic-lip-fillers-treatment.jpg"
 import botox from "../assets/botox-anti-wrinkle.png"
 import dermalFillers from "../assets/dermal-fillers.png"
 import eyebrowLift from "../assets/eyebrowlift.png"
