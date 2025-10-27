@@ -13,7 +13,7 @@ const Footer = () => {
                     {/* first portion */}
                     <div className='flex gap-4 flex-col lg:flex-row items-center lg:items-start'>
                         <div className='w-20'>
-                            <img src={tlogo} alt="Lam Aesthetic Studio" className='' />
+                            <img src={tlogo} alt="Lam Aesthetic Studio" className='' loading="lazy"/>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <div>

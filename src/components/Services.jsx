@@ -13,7 +13,7 @@ const Services = () => {
             <div className='flex items-start flex-wrap sm:flex-nowrap lg:mx-10 mx-3 gap-3'>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
-                        <img src={slider1} alt="Anti Wrinkles Lam Aesthetic " className='w-full'/>
+                        <img src={slider1} alt="Anti Wrinkles Lam Aesthetic " className='w-full' loading="lazy"/>
                     </div>
                     <div>
                         <h1 className='font-semibold text-xl mt-2 mb-1'>Anti Wrinkles</h1>
@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
-                        <img src={slider2} alt="Dermal filler" className='w-full'/>
+                        <img src={slider2} alt="Dermal filler" className='w-full' loading="lazy"/>
                     </div>
                     <div>
                         <h1 className='font-semibold text-xl mt-2 mb-1'>Dermal filler</h1>
@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
                 <div className=' md:w-1/3 w-full sm:w-1/3 p-3'>
                     <div>
-                        <img src={slider3} alt="Profhilo/skin booster" className='w-full'/>
+                        <img src={slider3} alt="Profhilo/skin booster" className='w-full' loading="lazy"/>
                     </div>
                     <div>
                         <h1 className='font-semibold text-xl mt-2 mb-1'>Profhilo/skin booster</h1>

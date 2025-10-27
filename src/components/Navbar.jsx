@@ -33,7 +33,7 @@ const navbar = () => {
             <nav className='flex justify-around items-center shadow p-0 m-0 py-4 h-20'>
 
                 <div className='flex items-center gap-2'>
-                    <div><img src={tlogo} alt="Lam Aesthetic Studio" className='w-16' width={64} height={64}/></div>
+                    <div><img src={tlogo} alt="Lam Aesthetic Studio" className='w-16' width={64} height={64} loading='lazy'/></div>
                     <h1 className='text-xl font-semibold'>Lam Aesthetic Studio</h1>
                 </div>
 
